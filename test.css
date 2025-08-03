@@ -1,0 +1,86 @@
+html {
+    font-size: 16px;
+    background-color: #98d9b341;
+}
+
+body {
+    text-align: center;
+    font-family: "Gothic A1";
+}
+
+.head-text {
+    /* font-family: "Helvetica Neue", "Arial", sans-serif; */
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.categories {
+    background-color: #00000000;
+    border-color:#23f6e1a5;
+    color: #000000a5;
+    font-weight: 800;
+    margin: 0 3rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.categories a:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.current-menu {
+    color: rgb(3, 96, 3);
+    font-weight: bold;
+}
+
+.menu {
+    color: inherit;
+}
+
+
+
+
+.container {
+    position: relative;
+    background: #a7f1d5a5;
+    color: #000000;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.contents > * {
+    margin: 2rem 4rem;
+}
+
+
+img {
+    width: 50%;
+    margin: auto;
+
+}
+
+section {
+    text-align: left;
+}
+section h4 {
+    text-decoration: underline;
+}
+
+table {
+    border: 0.8rem ridge #32a1ce;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
